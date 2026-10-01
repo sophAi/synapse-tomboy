@@ -1,0 +1,88 @@
+# Build artifacts and tools
+COPYING
+INSTALL
+aclocal.m4
+ChangeLog
+bin
+build
+compile
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+missing
+mkinstalldirs
+stamp-h1
+autom4te.cache
+build-aux
+m4
+
+# Makefiles and intermediate files
+Makefile
+Makefile.in
+*.stamp
+*.o
+*.lo
+*.la
+*.gmo
+*~
+*.swp
+.deps
+.dirstamp
+.libs
+
+# Po files
+po/Makefile.in.in
+po/POTFILES
+po/stamp-it
+po/.intltool-merge-cache
+po/*.gmo
+
+# Generated Vala C/Header/Vapi files
+src/ui/*.c
+src/ui/synapse
+src/ui/tile-view/*.c
+src/core/*.c
+src/core/*.h
+src/core/*.vapi
+src/core/SynapseCore-1.0.gir
+src/plugins/*.c
+src/plugins/*.h
+src/plugins/*.vapi
+src/ui/tile-view/*.h
+src/ui/tile-view/*.vapi
+
+# Generated desktop file
+data/synapse.desktop
+
+# Debian packaging artifacts
+debian/autoreconf.*
+debian/files
+debian/synapse-dbg*
+debian/*.log
+debian/*.debhelper
+debian/.debhelper/
+debian/tmp
+debian/*.substvars
+debian/synapse
+debian/debhelper-build-stamp
+
+# Package outputs
+*.deb
+*.buildinfo
+*.changes
+*.tar.gz
+*.tar.xz
+*.dsc
+dist/
+
+# IDE / Editor configs
+.vscode/
+.idea/
